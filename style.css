@@ -1,0 +1,76 @@
+#MENU {
+    position: sticky;
+    top:0;
+    z-index: 99999;
+}
+
+body {
+    background-color: gold;
+    text-shadow: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#vid {
+  margin-bottom: 100px;  
+}
+
+#acheivementsID {
+    padding-bottom: 10px
+}
+
+.movie_head {
+    font-size: 20ppx;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom; 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: skyblue
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#title {
+    font-size: 30px;
+    text-align: center;
+}
+#cruise {
+    height: 450px;
+    width: 400px;
+}
